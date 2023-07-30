@@ -1,0 +1,17 @@
+[package]
+name = "actix-web-nextjs-spa"
+description = "Actix Web Next.js SPA service"
+version = "0.1.0"
+edition = "2021"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/frysztak/actix-web-nextjs-spa"
+homepage = "https://github.com/frysztak/actix-web-nextjs-spa"
+
+[dependencies]
+actix-files = "0.6.2"
+actix-service = "2.0.2"
+actix-web = {version = "4.0", default-features = false, features = ["macros"]}
+glob = "0.3.1"
+path-tree = "0.7.2"
+regex = "1.9.1"
+tracing = "0.1.37"
